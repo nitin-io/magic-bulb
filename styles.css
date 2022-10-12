@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+.container {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 80%;
+    display: grid;
+    place-content: center;
+}
+
+.btn-container {
+    margin: 0 auto;
+}
+
+.btn {
+    margin: 0 -2px;
+    border-style: none;
+}
+
+.switch-btn-off {
+    background-color: white;
+    color: black;
+}
+
+.switch-btn-on {
+    background-color: black;
+    color: white;
+}
